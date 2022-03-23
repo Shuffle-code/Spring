@@ -19,8 +19,6 @@ public class CatServlet extends HttpServlet {
     }
 
     private Cat createCat() {
-
-
         List<Cat> cats = List.of(
                 new Cat("Shtopic", 1, null),
                 new Cat("Vasia", 1, null)
